@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, arial, helvetica;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif, arial, helvetica;
+}
+
+.topnavleft {
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnavleft a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.topnavleft a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.topnavright {
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.topnavright a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.topnavright a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 15%;
+    overflow: hidden;
+}
+
+.bottomnavleft a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottomnavleft a:hover {
+    background-color: #f2f2f2;
+    color: black;
+    text-decoration: underline;
+}
+
+.bottomnavright {
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.bottomnavright a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottomnavright a:hover {
+    background-color: #f2f2f2;
+    color: black;
+    text-decoration: underline;
+}
+
+#google_search,#lucky_search {
+    background-color: #f2f2f2;
+    padding: 7px;
+}
+
+#google_logo {
+    margin:  auto;
+    display: block;
+    clear: both;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 1em;
+}
+
+#search {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
